@@ -1,6 +1,7 @@
 import allure
 import requests
-from data import BASE_URL, COURIERS_URL
+# Импорт констант из модуля config
+from config import BASE_URL, COURIERS_URL
 
 
 class TestDeleteCourier:

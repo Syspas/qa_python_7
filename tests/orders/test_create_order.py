@@ -2,7 +2,10 @@ import json
 import allure
 import pytest
 import requests
-from data import ORDER_DATA_1, ORDER_DATA_2, BASE_URL, ORDERS_URL
+from data import ORDER_DATA_1, ORDER_DATA_2
+# Импорт констант из модуля config
+from config import BASE_URL, ORDERS_URL
+
 
 
 class TestCreateOrder:

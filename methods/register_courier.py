@@ -1,7 +1,8 @@
 import requests
 import random
 import string
-from data import BASE_URL, COURIERS_URL  # Импорт констант
+# Импорт констант из модуля config
+from config import BASE_URL, COURIERS_URL
 
 class CourierMethods:
     COURIER_API = f"{BASE_URL}{COURIERS_URL}"
