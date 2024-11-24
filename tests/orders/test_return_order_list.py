@@ -1,6 +1,8 @@
 import allure
 import requests
-from data import BASE_URL, ORDERS_URL
+# Импорт констант из модуля config
+from config import BASE_URL, ORDERS_URL
+
 
 class TestReturnOrderList:
     @allure.title('В тело ответа возвращается список заказов')
